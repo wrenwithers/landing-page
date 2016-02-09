@@ -1,0 +1,63 @@
+
+.bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 0;
+}
+
+.image-text {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 200px;
+}
+
+ul {
+  position: absolute;
+  z-index: 1;
+  list-style-type: none;
+  margin: -190px 60px 0 750px;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+}
+
+h1 .image-text {
+  z-index: 1;
+}
+
+.top-text {
+  font-size: 70px;
+  border-bottom: 2px solid white;
+}
+
+.bottom-text {
+  font-size: 145px;
+}
+
+button {
+  background-color: #E78970;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 10px;
+  margin-top: 50px;
+}
+
+.congrats {
+  font-size: 17px;
+  font-style: italic;
+  text-transform: lowercase;
+  display: block;
+  margin-top: 30px;
+}
